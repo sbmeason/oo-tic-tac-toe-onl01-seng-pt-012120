@@ -30,17 +30,16 @@ def input_to_index(user_input)
 
 def move(board, index, token)
     board[index] = token
-end
-end
+  end
+  
   
 def position_taken?(board, index)
     board[index] != " "
-end
-end
+  end
+
 
 def valid_move?(board, index)
   index.between?(0,8) && !position_taken(board, index)
-end
 end
   
 
