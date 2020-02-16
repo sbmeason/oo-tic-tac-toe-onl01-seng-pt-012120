@@ -36,5 +36,8 @@ end
   
   def position_taken?(board, index)
     board[index] != " "
-  end
+end
+
+def valid_move?
+  
 end
