@@ -35,5 +35,6 @@ end
   end
   
   def position_taken?
+    board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
     
 end
