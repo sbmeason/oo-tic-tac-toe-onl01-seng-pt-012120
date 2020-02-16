@@ -17,8 +17,7 @@ WIN_COMBINATIONS = [
   ]
 end
 
-
- def display_board(board)
+def display_board(board)
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
     puts "-----------"
     puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
@@ -26,15 +25,15 @@ end
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
 end
   
-  def input_to_index(input)
+def input_to_index(input)
     input.to_i - 1
- end
-  
-  def move(board, index, token)
+end
+
+def move(board, index, token)
     board[index] = token
 end
   
-  def position_taken?(board, index)
+def position_taken?(board, index)
     board[index] != " "
 end
 
